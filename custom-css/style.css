@@ -1,0 +1,484 @@
+@import "_nav.css";
+@import "_slider.css";
+@import "_shipping.css";
+@import "_category.css";
+@import "_special-offers.css";
+@import "_the-most-sells.css";
+@import "_banner-section-1.css";
+@import "_smartphone-section.css";
+@import "_banner-of-week.css";
+@import "_banner-half-of-week.css";
+@import "_brands.css";
+@import "_footer.css";
+@import "_singup-form.css";
+:root{
+  --rating-color: #deb887;
+  --footer-iconscolor: antiquewhite;
+  --SFMono: "SFMono-Regula"r;
+  --Menlo: "Menlo";
+  --f-f-cursive: cursive;
+  --f-f-fantasy: fantasy;
+  --f-f-sans-serif: sans-serif;
+}
+@font-face {
+    font-family: "bootstrap-icons";
+    src: url("../assets/icons-1.2.1/font/bootstrap-icons.woff") format("woff"),
+    url("../assets/icons-1.2.1/font/bootstrap-icons.woff2") format("woff2");
+}
+.custom-top-nav a {
+  text-decoration: none;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.custom-top-nav {
+  font-size: 14px;
+}
+p {
+  margin: 0;
+}
+/* font size */
+.fs-10{
+  font-size: 10px!important;
+}.fs-11{
+  font-size: 11px!important;
+}
+.fs-12{
+  font-size: 12px!important;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.fs-15{
+  font-size: 15px;
+}
+.fs-16{
+  font-size: 16px;
+}
+.fs-17{
+  font-size: 17px;
+}
+.fs-18{
+  font-size: 18px;
+}
+/* font size */
+.footer-icons-color{
+  color: antiquewhite;
+}
+
+              /*  font-family start */
+  .sfmono{
+    font-family:var(--SFMono);
+  }
+  .menlo{ font-family:var(--Menlo);
+  } 
+  .f-f-cursive { font-family:var(--f-f-cursive);
+  } 
+  .f-f-fantasy {
+    font-family:var(--f-f-fantasy);
+  }  
+  .f-f-Haettenschweiler {
+    font-family:var(--f-f-Haettenschweiler);
+  }  
+  .f-f-sans-serif{
+    font-family: var(--f-f-sans-serif);
+  }
+            /*  font-family end */
+.rounded-pill-start {
+  border-top-left-radius: 50rem;
+  border-bottom-left-radius: 50rem;
+}
+.rounded-pill-end {
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+.dropdown-toggle::after {
+  vertical-align: 0.09em;
+}
+::-webkit-input-placeholder {
+  font-size: 10px !important;
+}
+/* media query start */
+@media (max-width: 768px) {
+  .border-b-xsm-white{
+    border-bottom: 3px solid white;
+  }
+  .border-l-xsm-white {
+    border-left:3px solid white;
+  }
+}
+@media (min-width: 768px) {
+  .border-b-md-white {
+   border-bottom:1px solid white;
+}
+.border-l-md-white {
+  border-left:3px solid white;
+}
+
+}
+@media (min-width: 992px) {
+  .costom-f-col-lg-3 {
+    flex: 0 0 auto;
+    width: 18.1%;
+}
+
+}
+@media (min-width: 1200px) {
+  .w-xl-20 {
+    width: 20%!important;
+}
+.shipping div img{
+  width: 20%!important;
+}
+}
+
+@media (max-width: 992px) {
+  .mt-clg-2 {
+    margin-top: 0.5rem !important;
+}
+} 
+@media (max-width: 576px) {
+  .cw-xsm {
+    width: 50%;
+  }
+  .p-sm-1 {
+    padding: 5px!important;
+   
+   }
+  .fs-sm-12{
+    font-size: 12px!important;
+  }
+  .fs-sm-13{
+    font-size: 13px;
+  }
+  .fs-sm-14{
+    font-size: 14px;
+  }
+  
+  }
+
+  @media (max-width: 576px) {
+    .col-xsm {
+      flex: 1 0 0%;
+    }
+  
+    .row-cols-xsm-auto > * {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .row-cols-xsm-1 > * {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .row-cols-xsm-2 > * {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .row-cols-xsm-3 > * {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .row-cols-xsm-4 > * {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .row-cols-xsm-5 > * {
+      flex: 0 0 auto;
+      width: 20%;
+    }
+  
+    .row-cols-xsm-6 > * {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-xsm-auto {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  
+    .col-xsm-1 {
+      flex: 0 0 auto;
+      width: 8.3333333333%;
+    }
+  
+    .col-xsm-2 {
+      flex: 0 0 auto;
+      width: 16.6666666667%;
+    }
+  
+    .col-xsm-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-xsm-4 {
+      flex: 0 0 auto;
+      width: 33.3333333333%;
+    }
+  
+    .col-xsm-5 {
+      flex: 0 0 auto;
+      width: 41.6666666667%;
+    }
+  
+    .col-xsm-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  
+    .col-xsm-7 {
+      flex: 0 0 auto;
+      width: 58.3333333333%;
+    }
+  
+    .col-xsm-8 {
+      flex: 0 0 auto;
+      width: 66.6666666667%;
+    }
+  
+    .col-xsm-9 {
+      flex: 0 0 auto;
+      width: 75%;
+    }
+  
+    .col-xsm-10 {
+      flex: 0 0 auto;
+      width: 83.3333333333%;
+    }
+  
+    .col-xsm-11 {
+      flex: 0 0 auto;
+      width: 91.6666666667%;
+    }
+  
+    .col-xsm-12 {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  
+    .offset-xsm-0 {
+      margin-left: 0;
+    }
+  
+    .offset-xsm-1 {
+      margin-left: 8.3333333333%;
+    }
+  
+    .offset-xsm-2 {
+      margin-left: 16.6666666667%;
+    }
+  
+    .offset-xsm-3 {
+      margin-left: 25%;
+    }
+  
+    .offset-xsm-4 {
+      margin-left: 33.3333333333%;
+    }
+  
+    .offset-xsm-5 {
+      margin-left: 41.6666666667%;
+    }
+  
+    .offset-xsm-6 {
+      margin-left: 50%;
+    }
+  
+    .offset-xsm-7 {
+      margin-left: 58.3333333333%;
+    }
+  
+    .offset-xsm-8 {
+      margin-left: 66.6666666667%;
+    }
+  
+    .offset-xsm-9 {
+      margin-left: 75%;
+    }
+  
+    .offset-xsm-10 {
+      margin-left: 83.3333333333%;
+    }
+  
+    .offset-xsm-11 {
+      margin-left: 91.6666666667%;
+    }
+  
+    .g-xsm-0,
+  .gx-xsm-0 {
+      --bs-gutter-x: 0;
+    }
+  
+    .g-xsm-0,
+  .gy-xsm-0 {
+      --bs-gutter-y: 0;
+    }
+  
+    .g-xsm-1,
+  .gx-xsm-1 {
+      --bs-gutter-x: 0.25rem;
+    }
+  
+    .g-xsm-1,
+  .gy-xsm-1 {
+      --bs-gutter-y: 0.25rem;
+    }
+  
+    .g-xsm-2,
+  .gx-xsm-2 {
+      --bs-gutter-x: 0.5rem;
+    }
+  
+    .g-xsm-2,
+  .gy-xsm-2 {
+      --bs-gutter-y: 0.5rem;
+    }
+  
+    .g-xsm-3,
+  .gx-xsm-3 {
+      --bs-gutter-x: 1rem;
+    }
+  
+    .g-xsm-3,
+  .gy-xsm-3 {
+      --bs-gutter-y: 1rem;
+    }
+  
+    .g-xsm-4,
+  .gx-xsm-4 {
+      --bs-gutter-x: 1.5rem;
+    }
+  
+    .g-xsm-4,
+  .gy-xsm-4 {
+      --bs-gutter-y: 1.5rem;
+    }
+  
+    .g-xsm-5,
+  .gx-xsm-5 {
+      --bs-gutter-x: 3rem;
+    }
+  
+    .g-xsm-5,
+  .gy-xsm-5 {
+      --bs-gutter-y: 3rem;
+    }
+  }
+@media screen and (max-width: 768px) {
+.my-xsm-5{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.my-xsm-4{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  }
+  .my-xsm-3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    }
+}
+@media screen and (max-width: 768px) {
+.my-xsm-5{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.my-xsm-4{
+  margin-top: 4px;
+  margin-bottom: 4px;
+  }
+  .my-xsm-3{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    }
+    .my-xsm-2{
+      margin-top: 2px;
+      margin-bottom: 2px;
+      }
+      .my-xsm-1{
+        margin-top: 1px;
+        margin-bottom: 1px;
+        }
+}
+/* media query end */
+
+/* borders extra small start*/
+
+
+/* border extra small  end */
+ 
+/* ــــــــــــــ border top title start ـــــــــــ */
+                      /* html code start */
+                      /* <div class="bord-section-title">
+                      <h5 class="">
+                        <p class="position-relative fw-bold text-center describe-title">
+                          popular products
+                        </p>
+                      </h5>
+                    </div> */
+                     /* html code end */
+
+                     /* css code start */
+
+.bord-section-title p::before {
+    content: "";
+    position: absolute;
+    border-radius: 50% 50%;
+    width: 30%;
+    height: 3px;
+    background-color: orange;
+    top: 50%;
+    right: 66%;
+    text-align: unset !important;
+  }
+  .bord-section-title p::after {
+    content: "";
+    content: "";
+    position: absolute;
+    border-radius: 50% 50%;
+    width: 30%;
+    height: 3px;
+    background-color: orange;
+    top: 50%;
+    left: 66%;
+    text-align: unset !important;
+  }
+  .describe-title {
+    color: #b9af96;
+    font-family: ui-sans-serif;
+    font-size: 28px;
+    font-variant: petite-caps;
+  }
+  @media screen and (max-width: 768px) {
+    .describe-title {
+      font-size: 20px;
+    }
+    .bord-section-title p::before{
+      width: 22%;
+      height: 3px;
+      top: 50%;
+      right: 75%;
+    }
+    .bord-section-title p::after{
+      width: 22%;
+      height: 3px;
+      top: 50%;
+      left: 75%;
+    }
+  }
+                         /*  css code end  */
+
+    /* ــــــــــــــ border top title start ـــــــــــ */
+
+  
+ 

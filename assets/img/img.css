@@ -1,0 +1,7 @@
+body{
+    background-color: yellow;
+} 
+p{
+    font-size:60px;
+ text-transform: capitalize;
+}

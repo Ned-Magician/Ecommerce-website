@@ -1,0 +1,50 @@
+  .subscription-footer::-webkit-input-placeholder{
+    font-size: 14px!important;
+  vertical-align:top!important;
+  color: gainsboro;
+  }
+  .form-control-custom:focus{
+    box-shadow: none!important;
+  }
+  .custom-btn-footer:focus{
+    box-shadow: none!important;
+  }
+  footer{
+    background: rgba(105, 105, 105, 0.822)!important;
+  }
+  footer p, h6{
+    color: white;
+  }
+  .main-section-footer h5{
+    text-align: center!important;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.384);
+    padding-bottom: 5px;
+    display: inline-flex;
+    color: rgba(255, 255, 255, 0.842)!important;
+  }
+  .menu-footer-nav li a{
+    padding-left: 0;
+    text-decoration: none;
+    color: rgba(255, 249, 249, 0.63);
+    font: menu;
+    text-transform: capitalize;
+  }
+  .social-icon li a i{
+    color: white;
+    padding: .15rem .35rem!important;
+    color: var(--footer-iconscolor)
+  }
+ .social-icon li:hover{
+   background-color: rgb(173, 173, 173);
+ }
+ .news-letter .row{
+  transform: translateY(-50%);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px white;
+  background: rgba(47, 79, 79, 0.781);
+ }
+
+ .social-icon a.nav-link{
+  padding: .15rem .35rem!important;
+ }
+ 
