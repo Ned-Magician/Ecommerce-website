@@ -1,0 +1,83 @@
+.banner-text-1-fast-food{
+font-size: 14px;
+top: 53%;
+left: 19%;
+border: 1px solid red;
+border-radius: 13%;
+padding: 4px 21px 5px 14px;
+background: #ffa5004a;
+font-family: 'Font Awesome 5 Free';
+color: #131313;
+filter: brightness(0.5);
+}
+.banner-text-2-fast-food{
+    font-size: 14px;
+    top: 53%;
+    left: 35%;
+    border: 1px solid red;
+    border-radius: 13%;
+    padding: 4px 19px 5px 10px;
+    background: #ffa5004a;
+    font-family: 'Font Awesome 5 Free';
+    color: #131313;
+    filter: brightness(0.5);
+}
+.banner-text-1-fast-food:hover,.banner-text-2-fast-food:hover{
+    filter: none;
+    color: #ffffff;
+}
+
+.banner-text-fashion {
+    top: 75%;
+    right: 18%;
+    font-size: 14px;
+    color: white;
+    font-family: cursive;
+    padding: 3px 36px 2px 3px;
+}
+
+@media (max-width: 768px) {
+    .banner-text-fashion{
+
+        padding: 1px 22px 1px 2px!important;
+        font-size: 12px!important;
+    } 
+    .banner-text-1-fast-food, .banner-text-2-fast-food{
+        font-size: 12px!important;
+        padding: 0px 15px 1px 2px!important;
+     
+    }
+    }
+    @media screen and (min-width: 992px) and (max-width: 1200px){
+        .banner-text-fashion{
+         top: 73%;
+         right: 14%;
+         font-size: 12px;
+         padding: 3px 38px 2px 3px;
+        } 
+        .banner-text-1-fast-food, .banner-text-2-fast-food{
+            font-size: 12px!important;
+            padding: 0px 15px 1px 2px!important;
+         
+        }
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1400px){
+        .banner-text-fashion{
+            top: 74%;
+            right: 16%;
+            font-size: 13px;
+            padding: 3px 38px 2px 3px;
+       
+        } 
+        .banner-text-1-fast-food, .banner-text-2-fast-food{
+            font-size: 13px!important;
+            padding: 0px 15px 1px 2px!important;
+         
+        }
+        .banner-text-1-fast-food{
+            left: 21%;
+        }
+        .banner-text-2-fast-food{
+            right: 50%;
+        }
+    }

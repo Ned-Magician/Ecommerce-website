@@ -1,0 +1,34 @@
+div.shipping.bord-section-title p::before {
+    content: "";
+    position: absolute;
+    border-radius: 50% 50%;
+    width: 30%;
+    height: 3px;
+    background-color: orange;
+    top: 50%;
+    right: 66%;
+    text-align: unset !important;
+  }
+  div.shipping.bord-section-title p::after {
+    content: "";
+    content: "";
+    position: absolute;
+    border-radius: 50% 50%;
+    width: 30%;
+    height: 3px;
+    background-color: orange;
+    top: 50%;
+    left: 66%;
+    text-align: unset !important;
+  }
+  div.shipping.describe-title {
+    color: #b9af96;
+    font-family: ui-sans-serif;
+    font-size: 28px;
+    font-variant: petite-caps;
+  }
+.shipping div.row{
+    background-color: aliceblue;
+
+}
+

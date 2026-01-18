@@ -1,0 +1,8 @@
+.hover-section-phones{
+    transition: .5s ease;
+}
+.hover-section-phones:hover{
+    transform: scale3d(1.15, 1.05, 1.25);
+    transform: scale(1.15, 1);
+    transform-style: preserve-3d;
+}

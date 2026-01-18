@@ -1,0 +1,75 @@
+.bord-section-title p::before {
+  content: "";
+  position: absolute;
+  border-radius: 50% 50%;
+  width: 30%;
+  height: 3px;
+  background-color: orange;
+  top: 50%;
+  right: 66%;
+  text-align: unset !important;
+}
+.bord-section-title p::after {
+  content: "";
+  content: "";
+  position: absolute;
+  border-radius: 50% 50%;
+  width: 30%;
+  height: 3px;
+  background-color: orange;
+  top: 50%;
+  left: 66%;
+  text-align: unset !important;
+}
+.describe-title {
+  color: #b9af96;
+  font-family: ui-sans-serif;
+  font-size: 28px;
+  font-variant: petite-caps;
+}
+@media screen and (max-width: 768px) {
+  .describe-title {
+    font-size: 20px;
+  }
+  .bord-section-title p::before{
+    width: 22%;
+    height: 3px;
+    top: 50%;
+    right: 75%;
+  }
+  .bord-section-title p::after{
+    width: 22%;
+    height: 3px;
+    top: 50%;
+    left: 75%;
+  }
+}
+div.popular-products div :hover figure{
+    
+    box-shadow: 3px 3px 8px 0px #dfdfdf!important;
+    z-index: 1!important;
+
+}
+
+div.popular-products a figure img,
+div.popular-products a figure figcaption {
+  transition: 0.5s linear;
+}
+div.popular-products :hover > a figure img {
+  transform: scale(1.10, 1.10);
+}
+div.popular-products :hover > figcaption {
+  transform: scale(1.10, 1.10);
+}
+
+div.popular-products div :hover {
+ 
+    filter: drop-shadow(2px 4px 6px rgba(141, 138, 138, 0.356));
+}
+div.popular-products div a:hover {
+  color: rgb(63, 80, 80)!important;
+  font-variant: small-caps;
+}
+@media screen and (max-width: 576px) {
+
+}
